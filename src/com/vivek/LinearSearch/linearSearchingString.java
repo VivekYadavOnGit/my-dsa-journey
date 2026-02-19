@@ -3,15 +3,15 @@ package com.vivek.LinearSearch;
 public class linearSearchingString {
     public static void main(String[] args) {
         String givenStr = "dsndsbfdfnds nvudshfenfenfjdnfndfjdfe";
-        char target = 'z';
+        char target = 'f';
 
-//        int ans = searchString1(givenStr, target);
-        boolean ans = searchString0(givenStr, target);
+        int ans = searchString1(givenStr, target);
+//        boolean ans = searchString1(givenStr, target);
         System.out.println(ans);
     }
 
 
-    public static boolean searchString0(String str, char target){
+    public static boolean searchString2(String str, char target){
         if (str.isEmpty()){
             return false;
         }
